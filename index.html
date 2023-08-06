@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <div class="sidebar">
+        <h3>Aennma</h3>
+        <ul>
+          <li>
+            <a class="active" href="index.html">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a class="" href="settings.html">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a class="" href="profile.html">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a class="" href="projects.html">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a class="" href="courses.html">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a class="" href="friends.html">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a class="" href="files.html">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a class="" href="plans.html">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content w-full">
+        <!-- start head -->
+        <div class="head">
+          <div class="search">
+            <input class="p-10" type="search" placeholder="Type a keyword" />
+          </div>
+          <div class="icons">
+            <i class="fa-regular fa-bell fa-lg"></i>
+            <img decoding="async" src="imgs/avatar.png" alt="" />
+          </div>
+        </div>
+        <!-- end head -->
+        <h1>Dashboard</h1>
+        <div class="wrapper">
+          <!-- start welcome -->
+          <div class="welcome rad-10 bg-white txt-c-mobile block-mobile">
+            <div class="intro">
+              <div>
+                <h2>Welcome</h2>
+                <p>Aennma</p>
+              </div>
+              <img class="hide-mobile" src="/imgs/welcome.png" alt="" />
+            </div>
+            <img class="avatar" src="/imgs/avatar.png" alt="" />
+            <div class="body">
+              <div>
+                ibrahim ramzy
+                <span>developer</span>
+              </div>
+              <div>
+                80
+                <span>Project</span>
+              </div>
+              <div>
+                $8500
+                <span>Earned</span>
+              </div>
+            </div>
+            <a
+              href="profile.html"
+              class="visit btn-shape c-white bg-blue d-block w-fit"
+              >Profile</a
+            >
+          </div>
+          <!-- end welcome -->
+          <!-- start quick draft -->
+          <div class="quick-draft bg-white rad-10 p-20">
+            <h2 class="mb-10 mt-0">Quick draft</h2>
+            <p class="fs-15 c-grey mt-0 mb-20">Write A Draft For Your Ideas</p>
+            <form action="">
+              <input
+                type="text"
+                placeholder="Title"
+                class="w-full rad-6 bg-eee p-10 b-none mb-20"
+              />
+              <textarea
+                class="w-full bg-eee rad-6 p-10 b-none"
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Your Thought"
+              ></textarea>
+              <a href="" class="btn-shape c-white bg-blue d-block w-fit"
+                >save</a
+              >
+            </form>
+          </div>
+          <!-- end quick draft -->
+          <!-- start targets -->
+          <div class="targets bg-white rad-10 p-20">
+            <h2 class="mt-0 mb-10">Yearly Targets</h2>
+            <p class="c-grey fs-15 mt-0 mp-10">Targets Of The Year</p>
+            <div class="target-row blue mb-20">
+              <div class="icon center-flex">
+                <i class="fa-solid fa-dollar-sign fa-lg c-blue"></i>
+              </div>
+              <div class="details">
+                <span class="c-grey fs-14">Money</span>
+                <span class="fw-bold mt-5 mb-10">$20.000</span>
+                <div class="progress p-relative">
+                  <span class="blue bg-blue" style="width: 80%">
+                    <span class="bg-blue"> 80% </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="target-row orange mb-20">
+              <div class="icon center-flex">
+                <i class="fa-solid fa-code fa-lg c-orange"></i>
+              </div>
+              <div class="details">
+                <span class="c-grey fs-14">Projects</span>
+                <span class="fw-bold mt-5 mb-10">28</span>
+                <div class="progress p-relative">
+                  <span class="orange bg-orange" style="width: 55%">
+                    <span class="bg-orange"> 55% </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="target-row green">
+              <div class="icon center-flex">
+                <i class="fa-solid fa-user fa-lg c-green"></i>
+              </div>
+              <div class="details">
+                <span class="c-grey fs-14">team</span>
+                <span class="fw-bold mt-5 mb-10">12</span>
+                <div class="progress p-relative">
+                  <span class="green bg-green" style="width: 75%">
+                    <span class="bg-green"> 75% </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end targets -->
+          <!-- start tickets -->
+          <div class="tickets bg-white rad-10 p-20">
+            <h2 class="mt-0 mb-10">Tickets</h2>
+            <p class="c-grey fs-15 mt-0 mp-10 fs-15">
+              Everything About Support Tickets
+            </p>
+            <div class="d-flex f-wrap gap-20 txt-c">
+              <div class="box c-grey fs-13 p-20 rad-10">
+                <i
+                  class="fa-regular fa-rectangle-list fa-2x mb-10 c-orange"
+                ></i>
+                <span class="d-block fw-bold c-black mb-5 fs-25">2500</span>
+                total
+              </div>
+              <div class="box c-grey fs-13 p-20 rad-10">
+                <i class="fa-solid fa-spinner fa-2x mb-10 c-blue"></i>
+                <span class="d-block fw-bold c-black mb-5 fs-25">500</span>
+                pending
+              </div>
+              <div class="box c-grey fs-13 p-20 rad-10">
+                <i class="fa-regular fa-circle-check fa-2x mb-10 c-green"></i>
+                <span class="d-block fw-bold c-black mb-5 fs-25">1900</span>
+                closed
+              </div>
+              <div class="box c-grey fs-13 p-20 rad-10">
+                <i class="fa-regular fa-rectangle-xmark fa-2x mb-10 c-red"></i>
+                <span class="d-block fw-bold c-black mb-5 fs-25">100</span>
+                deleted
+              </div>
+            </div>
+          </div>
+          <!-- end tickets -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
